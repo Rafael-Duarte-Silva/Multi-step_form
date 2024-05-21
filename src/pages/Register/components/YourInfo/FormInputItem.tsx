@@ -21,11 +21,7 @@ export const FormInputItem = ({
             <S.FormLabel htmlFor={id}>
                 {labelText}
 
-                <S.FormLabelError>
-                        <strong>
-                            {errorsMessages}
-                        </strong>
-                </S.FormLabelError>
+                <S.FormLabelError>{errorsMessages}</S.FormLabelError>
             </S.FormLabel>
             <S.FormInput
                 $invalid={errorsMessages ? true : false}

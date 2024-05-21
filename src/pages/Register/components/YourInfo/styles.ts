@@ -25,7 +25,7 @@ export const FormLabel = styled.label `
     color: ${props => props.theme.colors.primary.marineblue};
 `;
 
-export const FormLabelError = styled.p `
+export const FormLabelError = styled.strong `
     font-size: calc(0.831rem + 0.188vw);
     font-weight: 800;
 
